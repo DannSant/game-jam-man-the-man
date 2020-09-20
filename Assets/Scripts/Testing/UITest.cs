@@ -11,6 +11,11 @@ public class UITest : MonoBehaviour
 
     bool openWindow = true;
 
+    private void Awake()
+    {
+        Time.timeScale = 0f;
+    }
+
     public void ChangeRaycastValue()
     {
         float raycast = raycastSlider.value;
@@ -23,5 +28,12 @@ public class UITest : MonoBehaviour
     {
         openWindow = !openWindow;
         panel.SetActive(openWindow);
+        if (openWindow)
+        {
+            Time.timeScale = 0f;
+        }else
+        {
+            Time.timeScale = 1f;
+        }
     }
 }

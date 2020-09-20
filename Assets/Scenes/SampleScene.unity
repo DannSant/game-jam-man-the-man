@@ -288,8 +288,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107600813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.34, y: 5.94, z: 0}
-  m_LocalScale: {x: 4.045811, y: 3.8661397, z: 1}
+  m_LocalPosition: {x: 17.757, y: 5.94, z: 0}
+  m_LocalScale: {x: 9.258702, y: 3.8661397, z: 1}
   m_Children: []
   m_Father: {fileID: 1949321519}
   m_RootOrder: 20
@@ -672,7 +672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &142308641
 RectTransform:
   m_ObjectHideFlags: 0
@@ -827,7 +827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &304129711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1469,7 +1469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478596155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.94, y: 7.2, z: 0}
+  m_LocalPosition: {x: 19.54, y: 3.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3399,8 +3399,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880220749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.72, y: 5.94, z: 0}
-  m_LocalScale: {x: 4.045811, y: 3.8661397, z: 1}
+  m_LocalPosition: {x: 19.293, y: 5.94, z: 0}
+  m_LocalScale: {x: 11.21354, y: 3.8661397, z: 1}
   m_Children: []
   m_Father: {fileID: 1949321519}
   m_RootOrder: 21
@@ -4236,7 +4236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1160730627
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4435,8 +4435,8 @@ RectTransform:
   m_Father: {fileID: 460717491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5391,10 +5391,10 @@ GameObject:
   - component: {fileID: 1521323229}
   - component: {fileID: 1521323226}
   - component: {fileID: 1521323231}
-  - component: {fileID: 1521323228}
   - component: {fileID: 1521323227}
   - component: {fileID: 1521323232}
   - component: {fileID: 1521323233}
+  - component: {fileID: 1521323228}
   m_Layer: 8
   m_Name: BPlayer
   m_TagString: Untagged
@@ -5414,7 +5414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af62cb55564508940a880ef92e51888e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
+  m_JumpForce: 850
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.085
   m_AirControl: 1
@@ -5444,9 +5444,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.021517992, y: -0.20699364}
+  m_Offset: {x: -0.001629889, y: -0.20699364}
   serializedVersion: 2
-  m_Radius: 0.29870498
+  m_Radius: 0.2755571
 --- !u!61 &1521323228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5460,7 +5460,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.021380186, y: 0.056576967}
+  m_Offset: {x: 0.0011513233, y: 0.017269641}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5471,7 +5471,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5809083, y: 0.4227953}
+  m_Size: {x: 0.5325694, y: 0.3437552}
   m_EdgeRadius: 0
 --- !u!50 &1521323229
 Rigidbody2D:
@@ -5698,7 +5698,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6499,7 +6499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1846709724
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6924,7 +6924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Man the man Demo - Ajustando los controles
+  m_Text: Time fixer - Metodo Brackeys + Yisus
 --- !u!222 &1962612941
 CanvasRenderer:
   m_ObjectHideFlags: 0
