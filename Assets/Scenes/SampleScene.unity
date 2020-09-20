@@ -1469,7 +1469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478596155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.54, y: 3.69, z: 0}
+  m_LocalPosition: {x: 19.64, y: 2.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6499,7 +6499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1846709724
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6552,11 +6552,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Esta version de la demo utiliza un metodo de Raycast para brincar, esto
-    significa que debajo del jugador se proyecta una linea desde los pies del jugador
-    hacia abajo y si esa linea detecta una plataforma, el jugador podr\xE1 brincar
-    nuevamente.\nPuedes ajustar la longitud del raycast aqui para hacer m\xE1s o
-    menos responsivo el salto:"
+  m_Text: 'Metodo Brackeys + Yisus(movimiento en Update en lugar de FixedUpdate)
+
+    Se
+    aumenta la gravedad y la fuerza del salto
+
+    Se elimina el limite maximo de
+    velocidade de caida
+
+    El crouch ya no es automatico'
 --- !u!222 &1846709726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6924,7 +6928,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time fixer - Metodo Brackeys + Yisus
+  m_Text: Time fixer - Cambios
 --- !u!222 &1962612941
 CanvasRenderer:
   m_ObjectHideFlags: 0
